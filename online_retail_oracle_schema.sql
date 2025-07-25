@@ -87,7 +87,7 @@ insert into Products (product_id, name, description, price, stock, category)
 values (product_seq.NEXTVAL, 'Shoes', 'Running Shoes', 2000.00, 50, 'Fashion');
 
 -- Orders
-nsert into Orders (order_id, customer_id, order_date, status, total) 
+insert into Orders (order_id, customer_id, order_date, status, total) 
 values (order_seq.NEXTVAL, 1, CURRENT_TIMESTAMP, 'Completed', 77000.00);
 
 -- OrderDetails
